@@ -3,7 +3,7 @@
 
 :root{
     --color-neutral-0: #0e0c0c;
-    --color-neutral-10: rgb(0, 190, 0);
+    --color-neutral-10: #609966;
     --color-neutral-30: #a8a29e;
     --color-neutral-40: #f5f5f5;
 }
@@ -25,29 +25,31 @@ main{
     position: sticky;
     top: 0;
 }
-/* ul{
+
+.menu{
     display: flex;
     gap: 30px;   
 }
-ul , li{
+.menu , .icones-menu{
     list-style: none;
 }
-ul , li , a {
+.menu , .icones-menu , a {
     font-weight: 700;
     text-transform: uppercase;
     padding: 5px;
     text-decoration: underline;
     transition: 0,5s ease;
 }
-ul:hover li a{
-    color: blue;
+.menu:hover .icones-menu a{
+    color: #EDF1D6;
 }
 
-ul:hover li a:not(:hover){
+.menu:hover .icones-menu a:not(:hover){
     color: black;
     opacity: 0,5;
     filter: blur(10px);
-} */
+}
+
 div{
     width: 100%;
     margin: 0 auto;
@@ -58,7 +60,7 @@ nav{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(0, 190, 0);
+    background-color: 	#609966;
     padding: 1rem;
 }
 .navegador{
@@ -66,12 +68,12 @@ nav{
     justify-content: right;
 }
 
-/* li{
+.icones-menu{
     position: relative;
     display: block;
     transition: .5s;
 }
-li::after{
+.icones-menu::after{
     position: absolute;
     content: "";
     width: 100%;
@@ -82,13 +84,13 @@ li::after{
     transform: scarleX(0);
     transform-origin: right;
 }
-li:hover{
+.icones-menu:hover{
     color: #95a5a6;
 }
-li:hover::after{
+.icones-menu:hover::after{
     transform: scaleX(1);
     transform-origin: left;
-} */
+} 
 
 /*CONFIG VIDEO/LOGO*/
 .video1{
@@ -181,7 +183,7 @@ footer{
 }
 
 .footer-lista .footer-link{
-    color: #426763)
+    color: 	#3CB371)
 }
 
 .footer-lista .footer-link:hover{
@@ -201,7 +203,7 @@ footer{
 #input_group {
     display: flex;
     align-items: center;
-    background-color: #094e24;
+    background-color: #40513B;
     border-radius: 4px;
 }
 
@@ -229,7 +231,7 @@ footer{
 #footer_copyright{
     display: flex;
     justify-content: center;
-    background-color: #094e24;
+    background-color: #40513B;
     font-size: 0.9rem;
     padding: 1.5rem;
     font-weight: 100;
@@ -241,3 +243,10 @@ footer{
         padding: 3rem 2rem;
     }
 }
+
+.footer-link{
+    color: #EDF1D6;
+
+}
+
+
