@@ -9,7 +9,7 @@
 }
 
 main{
-    height: 80vh;
+    height: 50vh;
 }
 
 /* Configuração da fonte */
@@ -249,4 +249,8 @@ footer{
 
 }
 
-
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #e8f3e3 ;
+}
