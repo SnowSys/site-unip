@@ -8,8 +8,13 @@
     --color-neutral-40: #f5f5f5;
 }
 
-main{
-    height: 50vh;
+.main-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-footer{
+    height: 10vh;
 }
 
 /* Configuração da fonte */
@@ -183,6 +188,7 @@ footer{
 }
 
 .footer-lista .footer-link{
+    text-decoration: none;
     color: 	#3CB371)
 }
 
@@ -253,4 +259,15 @@ body {
     height: 100vh;
     box-sizing: border-box;
     background-color: #e8f3e3 ;
+}
+
+.h1-bem-vindo{
+    font-size: 40px;
+    color: #40513B;
+}
+
+.img{
+    height: 40%;
+    width: 40%;
+    object-fit: cover;
 }
